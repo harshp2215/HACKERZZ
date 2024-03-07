@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: url('https://media.istockphoto.com/id/1125272734/photo/blurred-out-door-car-park-with-sunlignt.jpg?s=612x612&w=0&k=20&c=GcufK0Nx3ZKSTgQDVWcSc3PKX_3ayisepZjQY7V4tBI=');
+}
+
+h1{
+    text-align: center;
+    background-color: chocolate;
+    color: darksalmon;
+    line-height: 3rem;
+    height: 3rem;
+    margin-bottom: 2rem;
+}
+input, textarea{
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    width: 80%;
+    margin: 11px 0px;
+    padding: 7px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    color: white;
+    background: purple;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.75;
+}
+.container{
+    padding: 80px;
+    background-color: NONE;
+    color: rgb(0, 0, 0);
+    width: 80%;
+}
+p{
+    color: brown;
+    text-align: center;
+    font-size: 70px;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50% 0%;
+}
